@@ -65,3 +65,7 @@ body {
 .score p:first-child {
   background: var(--primary-color);
 }
+
+.score p:last-child {
+  background: var(--dark-color);
+}

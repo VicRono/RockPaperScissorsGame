@@ -43,4 +43,5 @@ body {
 
 .restart-btn:hover {
   background: var(--primary-color);
+  color: #fff;
 }

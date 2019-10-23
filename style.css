@@ -91,3 +91,9 @@ body {
     font-size: 110px;
   }
 }
+
+@media (max-width: 500px) {
+  .choice {
+    font-size: 70px;
+  }
+}

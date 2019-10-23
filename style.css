@@ -85,3 +85,9 @@ body {
 .choice:hover {
   color: var(--primary-color);
 }
+
+@media (max-width: 700px){
+  .choice {
+    font-size: 110px;
+  }
+}

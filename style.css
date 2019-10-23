@@ -77,3 +77,11 @@ body {
   margin-top: 3rem;
   text-align: center;
 }
+
+.choice {
+  cursor: pointer;
+}
+
+.choice:hover {
+  color: var(--primary-color);
+}

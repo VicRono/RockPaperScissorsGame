@@ -25,3 +25,7 @@
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
 }
+
+.modal-content h1 {
+  margin-bottom: 1rem;
+}

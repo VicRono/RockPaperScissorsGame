@@ -89,6 +89,11 @@ body {
   color: var(--win-color)
 }
 
+.text-lose {
+  color: var(--win-color)
+}
+
+
 @media (max-width: 700px){
   .choice {
     font-size: 110px;

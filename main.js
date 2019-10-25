@@ -13,6 +13,7 @@ const scoreboard = {
 
 //Play Game
 function play(e) {
+  restart.style.display = 'inline-block';
   const playerChoice = e.target.id;
 }
 

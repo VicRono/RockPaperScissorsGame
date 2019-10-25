@@ -39,7 +39,11 @@ function getWinner(p, c){
     if(c === 'paper'){
       return 'computer';
     } else {
-      return 'player'; 
+      return 'player';
+    }
+  } else if (p === paper) {
+    if (c === 'scissors'){
+      return 'computer';
     }
   }
 }

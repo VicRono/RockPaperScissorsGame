@@ -33,7 +33,9 @@ function getComputerChoice(){
 
 //get winner
 function getWinner(p, c){
-
+  if(p === c){
+    return 'draw';
+  }
 }
 
 //Event listener

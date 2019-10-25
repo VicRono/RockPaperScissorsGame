@@ -15,6 +15,12 @@ const scoreboard = {
 function play(e) {
   restart.style.display = 'inline-block';
   const playerChoice = e.target.id;
+  const computerChoice = getComputerChoice();
+}
+
+//Get computer choices
+function getComputerChoice(){
+
 }
 
 //Event listener

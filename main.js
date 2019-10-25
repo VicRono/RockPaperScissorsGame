@@ -16,11 +16,14 @@ function play(e) {
   restart.style.display = 'inline-block';
   const playerChoice = e.target.id;
   const computerChoice = getComputerChoice();
+
+//testing purposes
+  console.log(playerChoice, computerChoice);
 }
 
 //Get computer choices
 function getComputerChoice(){
-  const rand = math.random();
+  const rand = Math.random();
   if(rand < 0.34){
     return 'rock';
   } else if (rand <= 0.67) {

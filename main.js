@@ -12,8 +12,8 @@ const scoreboard = {
 }
 
 //Play Game
-function Play(e) {
-  console.log(e.target.id);
+function play(e) {
+  const playerChoice = e.target.id;
 }
 
 //Event listener

@@ -15,3 +15,6 @@ const scoreboard = {
 function Play(e) {
   console.log(e.target.id);
 }
+
+//Event listener
+choices.forEach(choice => choice.addEventListener('click', play));

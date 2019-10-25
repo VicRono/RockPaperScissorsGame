@@ -17,6 +17,9 @@ function play(e) {
   const playerChoice = e.target.id;
   const computerChoice = getComputerChoice();
   const winner = getWinner(playerChoice, computerChoice);
+
+//test purposes
+  console.log(playerChoice, computerChoice, winner);
 }
 
 //Get computer choices

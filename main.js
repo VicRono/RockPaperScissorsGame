@@ -44,6 +44,8 @@ function getWinner(p, c){
   } else if (p === paper) {
     if (c === 'scissors'){
       return 'computer';
+    } else {
+      return 'player';
     }
   }
 }

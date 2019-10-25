@@ -21,6 +21,9 @@ function play(e) {
 //Get computer choices
 function getComputerChoice(){
   const rand = math.random();
+  if(rand < 0.34){
+    return 'rock';
+  }
 }
 
 //Event listener

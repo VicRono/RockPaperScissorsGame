@@ -25,6 +25,8 @@ function getComputerChoice(){
     return 'rock';
   } else if (rand <= 0.67) {
     return 'paper';
+  } else {
+    return 'scissors';
   }
 }
 

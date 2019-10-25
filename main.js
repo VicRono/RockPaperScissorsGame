@@ -20,7 +20,7 @@ function play(e) {
 
 //Get computer choices
 function getComputerChoice(){
-
+  const rand = math.random();
 }
 
 //Event listener

@@ -10,3 +10,8 @@ const scoreboard = {
   player : 0,
   computer : 0
 }
+
+//Play Game
+function Play(e) {
+  console.log(e.target.id);
+}

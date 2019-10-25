@@ -38,6 +38,8 @@ function getWinner(p, c){
   } else if (p === 'rock') {
     if(c === 'paper'){
       return 'computer';
+    } else {
+      return 'player'; 
     }
   }
 }

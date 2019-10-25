@@ -16,9 +16,7 @@ function play(e) {
   restart.style.display = 'inline-block';
   const playerChoice = e.target.id;
   const computerChoice = getComputerChoice();
-
-//testing purposes
-  console.log(playerChoice, computerChoice);
+  const winner = getWinner(playerChoice, computerChoice);
 }
 
 //Get computer choices
@@ -31,6 +29,11 @@ function getComputerChoice(){
   } else {
     return 'scissors';
   }
+}
+
+//get winner
+function getWinner(p, c){
+
 }
 
 //Event listener

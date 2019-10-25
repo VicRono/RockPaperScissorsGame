@@ -41,11 +41,15 @@ function getWinner(p, c){
     } else {
       return 'player';
     }
-  } else if (p === paper) {
+  } else if (p === 'paper') {
     if (c === 'scissors'){
       return 'computer';
     } else {
       return 'player';
+    }
+  } else if (p === 'scissors'){
+    if (c === 'rock') {
+      return 'computer';
     }
   }
 }

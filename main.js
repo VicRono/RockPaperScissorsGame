@@ -90,6 +90,9 @@ function showWinner(winner, computerChoice) {
   <p>Player: ${scoreboard.player}</p>
   <p>Computer: ${scoreboard.computer}</p>
   `;
+
+//Display score on modal
+  modal.style.display = 'block';
 }
 
 //Event listener

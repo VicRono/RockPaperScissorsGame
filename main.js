@@ -78,6 +78,12 @@ function showWinner(winner, computerChoice) {
     <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
     <p>Computer chose: <strong>${computerChoice}</strong></p>
     `;
+  } else {
+    result.innerHTML = `
+    <h1>It's a draw =(</h1>
+    <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
+    <p>Computer chose: <strong>${computerChoice}</strong></p>
+    `;
   }
 }
 

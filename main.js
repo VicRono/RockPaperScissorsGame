@@ -67,6 +67,7 @@ function showWinner(winner, computerChoice) {
     result.innerHTML = `
     <h1 class="text-win">You Win</h1>
     <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
+    <p>Computer chose: <strong>${computerChoice}</strong></p>
     `;
   }
 }

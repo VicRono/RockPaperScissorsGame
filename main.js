@@ -59,5 +59,12 @@ function getWinner(p, c){
   }
 }
 
+function showWinner(winner, computerChoice) {
+  if (winner === 'player') {
+    //Increment player score
+    scoreboard.player++;
+  }
+}
+
 //Event listener
 choices.forEach(choice => choice.addEventListener('click', play));

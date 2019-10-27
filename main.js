@@ -63,6 +63,11 @@ function showWinner(winner, computerChoice) {
   if (winner === 'player') {
     //Increment player score
     scoreboard.player++;
+    //Show modal result
+    result.innerHTML = `
+    <h1 class="text-win">You Win</h1>
+    <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
+    `;
   }
 }
 

@@ -69,6 +69,15 @@ function showWinner(winner, computerChoice) {
     <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
     <p>Computer chose: <strong>${computerChoice}</strong></p>
     `;
+  } else if (winner === 'computer') {
+    //Increment CPU score
+    scoreboard.computer++;
+    //Show modal result
+    result.innerHTML = `
+    <h1 class="text-lose">You lose</h1>
+    <i class="fas fa-hand-${computerChoice} fa-10x">>/i>
+    <p>Computer chose: <strong>${computerChoice}</strong></p>
+    `;
   }
 }
 
